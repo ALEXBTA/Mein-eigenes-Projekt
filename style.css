@@ -1,0 +1,38 @@
+* {
+  box-sizing: content-box;
+}
+
+header {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {display: block;}
+
+span a {
+  display: block;
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-style: italic;
+}
+
+nav a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (min-width: 700px;) {
+  header nav {
+    display: block;
+  }
+  #menu {
+    display: none;
+  }
+  nav ul {display: flex;}
+}
