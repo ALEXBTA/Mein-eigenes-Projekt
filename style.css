@@ -8,7 +8,7 @@ header {
   justify-content: space-between;
 }
 
-ul li {display: block;}
+ul {display: flex;}
 
 span a {
   display: block;
@@ -19,6 +19,7 @@ span a {
   font-style: italic;
 }
 
+nav{display: none;}
 nav a {
   display: flex;
   color: black;
@@ -27,12 +28,12 @@ nav a {
   font-weight: bold;
 }
 
-@media (min-width: 700px;) {
+@media (min-width: 700px) {
   header nav {
-    display: block;
+    display: inline-block;
   }
   #menu {
     display: none;
   }
-  nav ul {display: flex;}
+
 }
